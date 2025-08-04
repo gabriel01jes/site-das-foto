@@ -1,0 +1,63 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header-jujutsu {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-jujutsu h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.imagens-pequenas,
+.imagens-grandes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.imagem-container {
+    display: inline-block;
+}
+
+.imagem-pequena {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #ff0000;
+}
+
+.imagem-grande {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #ff0000;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .imagens-pequenas,
+    .imagens-grandes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-pequena,
+    .imagem-grande {
+        width: 90%;
+        height: auto;
+    }
+}
