@@ -10,8 +10,10 @@ body {
 .header-jujutsu {
     background-color: #ff0000;
     color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 1279px;
+    height: 149px;
+    margin-bottom: 40px;
+    border-radius: 32px;
 }
 
 .header-jujutsu h1 {
